@@ -3,7 +3,7 @@
 B.S. Physics Undergraduate — Indian Institute of Technology, Kanpur
 Minor: Space, Planetary & Astronomical Sciences and Engineering (SPASE)
 
-[GitHub](https://github.com/TanmayShukla05) · [LinkedIn](https://www.linkedin.com/in/tanmayshukla05/) · [Kaggle](https://www.kaggle.com/tanmayshukla05) · tanmay24@iitk.ac.in
+[Website](https://tanmayshukla05.github.io/my-website/) · [GitHub](https://github.com/TanmayShukla05) · [LinkedIn](https://www.linkedin.com/in/tanmayshukla05/) · [Kaggle](https://www.kaggle.com/tanmayshukla05) · tanmay24@iitk.ac.in
 
 ---
 
