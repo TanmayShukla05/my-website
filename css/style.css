@@ -226,12 +226,20 @@ h3 { font-size: 18px; font-weight: bold; margin: 0 0 4px; }
 .entry-links {
   margin-top: 6px;
   display: flex;
-  gap: 14px;
+  gap: 10px;
   flex-wrap: wrap;
   font-size: 14.5px;
 }
-.entry-links a::before { content: "[ "; }
-.entry-links a::after { content: " ]"; }
+.entry-links a {
+  padding: 3px 10px;
+  border: 1px solid var(--link);
+  border-radius: 3px;
+  text-decoration: none;
+}
+.entry-links a:hover {
+  background: var(--link);
+  color: #fff;
+}
 
 /* ============================================================
    Datasets table-ish list
