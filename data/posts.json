@@ -1,0 +1,10 @@
+[
+  {
+    "slug": "welcome",
+    "title": "Welcome to my log",
+    "date": "2026-08-02",
+    "tags": ["meta"],
+    "summary": "A short first post explaining what this space is for.",
+    "file": "content/posts/welcome.md"
+  }
+]

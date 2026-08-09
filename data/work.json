@@ -1,0 +1,44 @@
+[
+  {
+    "role": "Market Research Intern",
+    "org": "Aditya Birla Money Ltd.",
+    "location": "Akola, India",
+    "start": "Dec 2024",
+    "end": "Dec 2024",
+    "tags": ["Finance", "Market Research"],
+    "summary": "Analyzed stock, sector, and index performance using historical and real-time market data to surface correlation patterns and sector-rotation opportunities. Used the NEST Trader terminal for technical analysis (moving averages, RSI, support-resistance) and tracked earnings and macro indicators to assess market sentiment. Received a Letter of Recommendation for outstanding performance.",
+    "links": [
+      { "label": "Related project — Stock Master Pro", "url": "https://github.com/TanmayShukla05/Stock-Master-Pro" }
+    ]
+  },
+  {
+    "role": "Secretary",
+    "org": "Astronomy Club, IIT Kanpur",
+    "location": "IIT Kanpur",
+    "start": "Apr 2025",
+    "end": "Apr 2026",
+    "tags": ["Leadership"],
+    "summary": "Ran a country-wide Astronomy Case Study Challenge and a 3-day astronomy tech-fest for 10,000+ people on campus and 500+ more remotely. Managed the club's pavilion at IITK's Science & Technology Council for 1,200+ freshers, and led 3 mentored projects for freshmen across signal processing, deep learning, and astronomy.",
+    "links": []
+  },
+  {
+    "role": "Student Guide",
+    "org": "Institute Counseling Services, IIT Kanpur",
+    "location": "IIT Kanpur",
+    "start": "Jul 2025",
+    "end": "Present",
+    "tags": ["Mentorship"],
+    "summary": "Personally mentored 5 freshmen through their academic and personal adjustment to institute life. Conducted the Orientation Programme introducing 1,200+ incoming students to campus.",
+    "links": []
+  },
+  {
+    "role": "Secretary",
+    "org": "Anime Society, IIT Kanpur",
+    "location": "IIT Kanpur",
+    "start": "Apr 2025",
+    "end": "Apr 2026",
+    "tags": ["Leadership"],
+    "summary": "Organized events and discussion sessions for students interested in Japanese animated film and series, including quizzes on current and upcoming titles.",
+    "links": []
+  }
+]

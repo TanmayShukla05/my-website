@@ -1,0 +1,19 @@
+{
+  "name": "Tanmay Shukla",
+  "role": "Physics Undergraduate, IIT Kanpur",
+  "tagline": "Third-year Physics undergrad at IIT Kanpur (minor in Space, Planetary & Astronomical Sciences & Engineering), working across astrophysics research, machine learning, and data pipelines.",
+  "location": "Kanpur, India",
+  "email": "tanmay24@iitk.ac.in",
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/TanmayShukla05" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/tanmayshukla05/" },
+    { "label": "Kaggle", "url": "https://www.kaggle.com/tanmayshukla05" },
+    { "label": "Email", "url": "mailto:tanmay24@iitk.ac.in" }
+  ],
+  "about": "I'm a third-year B.S. Physics student at IIT Kanpur, minoring in Space, Planetary & Astronomical Sciences & Engineering. I work on astrophysics research (circumgalactic medium modelling, pulsar detection, VLBI imaging) and build ML/data pipelines for problems in astronomy, finance, and computer vision — mostly through the Astronomy Club at IIT Kanpur, where I also mentor projects as Secretary.",
+  "skills": [
+    "Python", "C++", "C", "R", "TensorFlow", "Keras", "scikit-learn",
+    "OpenCV", "YOLOv8", "NumPy", "Pandas", "Signal Processing",
+    "Statistical Analysis", "Git/GitHub", "LaTeX"
+  ]
+}

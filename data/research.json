@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Modelling Milky Way-like Galaxies",
+    "venue": "Ongoing Research Work — advised by Prof. Mohit Bhardwaj",
+    "authors": "Tanmay Shukla",
+    "tags": ["Astrophysics", "Data Pipelines"],
+    "summary": "Built a data pipeline to ingest and process targeted subsets of a 1 PB high-dimensional galaxy particle dataset, using local caching and axis-wise statistical aggregation to speed up feature engineering. Studying the circumgalactic medium (CGM) and feedback mechanisms in Milky Way-like galaxies through statistical modelling and simulation-driven analysis; a manuscript is in preparation.",
+    "links": [
+      { "label": "Code", "url": "https://github.com/TanmayShukla05/tng_cgm_analysis" }
+    ]
+  }
+]

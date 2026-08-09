@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Hopfield-Based File Recovery System",
+    "date": "Apr 2026",
+    "tags": ["Machine Learning", "Systems"],
+    "summary": "A fault-tolerant file recovery system built on Modern Hopfield Networks, recovering corrupted, modified, or overwritten files via associative memory retrieval. Handles images, PDFs, notebooks, HDF5, and arbitrary binary files through a unified encoding pipeline, with softmax-based retrieval, Hamming-overlap matching, and bit-packed storage.",
+    "links": [
+      { "label": "Live demo", "url": "https://file-recovery-system.onrender.com/" },
+      { "label": "Code", "url": "https://github.com/TanmayShukla05/file-recovery-system" }
+    ]
+  },
+  {
+    "title": "Project Moonslide",
+    "date": "May 2026 – Ongoing",
+    "tags": ["Computer Vision", "Astronomy"],
+    "summary": "An unsupervised computer-vision pipeline that generates YOLOv8 training data from Chandrayaan-2 lunar imagery, using physics-guided features (Sobel slope/aspect, tensor anisotropy, Chebyshev fitting) instead of manual labeling. Validated the self-supervised labeling approach against a human-annotated benchmark across three regimes, measuring mAP@0.5, precision, and recall. Mentored through the Astronomy Club, IIT Kanpur.",
+    "links": [
+      { "label": "Code", "url": "https://github.com/TanmayShukla05/Project-Moonslide" }
+    ]
+  },
+  {
+    "title": "Quant Forecast",
+    "date": "May 2026",
+    "tags": ["Finance", "Machine Learning"],
+    "summary": "A quantitative forecasting pipeline combining financial APIs, time-series preprocessing, and feature engineering to identify market patterns and generate data-driven price predictions. Evaluated via backtesting and error/sensitivity analysis, and enhanced with NLP-based sentiment analysis of financial news.",
+    "links": [
+      { "label": "Code", "url": "https://github.com/TanmayShukla05/Quant-Forecast" }
+    ]
+  },
+  {
+    "title": "Stranger Pulses",
+    "date": "Dec 2025",
+    "tags": ["Machine Learning", "Astronomy"],
+    "summary": "An end-to-end ML pipeline to classify faint, imbalanced pulsar signals from cosmic noise, using SMOTE oversampling and PCA. Applied Fourier-transform signal processing and data folding to de-disperse multi-frequency radio streams, then trained Random Forest, KNN, and Logistic Regression models on the HTRU2 dataset. Mentored through the Astronomy Club, IIT Kanpur.",
+    "links": [
+      { "label": "Code", "url": "https://github.com/TanmayShukla05/Stranger-Pulses" }
+    ]
+  },
+  {
+    "title": "AlgoForge",
+    "date": "May 2026 – Ongoing",
+    "tags": ["DSA"],
+    "summary": "Ongoing problem-solving across LeetCode and Codeforces through the Association for Computing Activities, IIT Kanpur — covering Binary Search, Greedy algorithms, Kadane's algorithm, and Dynamic Programming paradigms (0/1 Knapsack, LCS, partition DP).",
+    "links": []
+  },
+  {
+    "title": "Mapping the Local-Volume Universe",
+    "date": "Dec 2025 – Jan 2026",
+    "tags": ["Astrophysics", "Data"],
+    "summary": "Processed the HECATE galaxy catalog to build a HEALPix full-sky map, comparing circumgalactic medium (CGM) models to compute projected dispersion measures. Optimized spatial querying via HEALPix disc functions and integrated CHIME Fast Radio Burst (FRB) data to sample dispersion measures for new cosmological interpretations.",
+    "links": [
+      { "label": "Code", "url": "https://github.com/TanmayShukla05/Mapping-Local-Volume-DM-with-HEALPix" }
+    ]
+  },
+  {
+    "title": "Exohub Matrix",
+    "date": "May 2025 – Aug 2025",
+    "tags": ["Astronomy", "Machine Learning"],
+    "summary": "A Python/SciPy pipeline automating peak detection and elemental abundance calculations from PEPSI exoplanet transit survey data. Also includes a CNN (TensorFlow/Keras) for facial emotion classification, and a Random Forest regression model estimating the Earth Similarity Index of exoplanets from Kepler/TESS data (variance score > 0.99). Built through the Astronomy Club, IIT Kanpur.",
+    "links": [
+      { "label": "Code", "url": "https://github.com/TanmayShukla05/Exohub_Matrix" }
+    ]
+  },
+  {
+    "title": "Beyond Hubble",
+    "date": "Dec 2025",
+    "tags": ["Machine Learning", "Astronomy"],
+    "summary": "A two-stage ML framework analyzing Gaia DR3 survey data — K-Means clustering to reveal structural patterns in star clusters, and a Random Forest classifier to isolate Cepheid variable stars from background noise. Used a RANSAC regressor to fit the Leavitt Law and recover cosmic distance coefficients robust to outliers. Mentored through the Astronomy Club, IIT Kanpur.",
+    "links": [
+      { "label": "Code", "url": "https://github.com/TanmayShukla05/Beyond-Hubble" }
+    ]
+  },
+  {
+    "title": "Singularity Mosaic",
+    "date": "May 2025 – Aug 2025",
+    "tags": ["Astronomy", "Signal Processing"],
+    "summary": "A VLBI data-processing pipeline (using CASA) to analyze Event Horizon Telescope observations of M87*, covering calibration, UV-plane synthesis, and CLEAN deconvolution to reconstruct the black hole's shadow. Used Bayesian inference with Metropolis-Hastings MCMC and L1/total-variation regularization to estimate image parameters from multi-day interferometric observations. Built through the Astronomy Club, IIT Kanpur.",
+    "links": [
+      { "label": "Code", "url": "https://github.com/TanmayShukla05/Singularity-Mosaic" }
+    ]
+  },
+  {
+    "title": "Gender Detection Model",
+    "date": "Dec 2024",
+    "tags": ["Computer Vision", "Machine Learning"],
+    "summary": "An image pipeline (OpenCV, Haar Cascades) that extracted and normalized 24,576 facial images into a training dataset, feeding a custom CNN (TensorFlow/Keras) that reached 93.8% test accuracy. Added a live webcam feature for real-time gender prediction with bounding boxes and confidence overlays. Built through the IITK Consulting Group.",
+    "links": [
+      { "label": "Code", "url": "https://github.com/TanmayShukla05/Gender-Detection-Model-using-CNN--Convolutional-Neural-Network-" }
+    ]
+  },
+  {
+    "title": "Statistical Study of Quantum Emission Spectra",
+    "date": "Oct 2025",
+    "tags": ["Physics", "Experimental"],
+    "summary": "PHY224 course project (advised by Prof. Chandrima Banerjee). Built an optical setup with a dispersive prism and scanning monochromator to capture tungsten-filament emission spectra, validating the shift from Rayleigh-Jeans to Planck's model. A Python pipeline extracted peaks and fit blackbody curves to verify Wien's Displacement Law, cross-validated against single-slit diffraction calibration.",
+    "links": [
+      { "label": "Report", "url": "https://drive.google.com/file/d/1eKsSQCRL3bNFoESup2-PBsBLqjt-H81V/view?usp=sharing" }
+    ]
+  }
+]
