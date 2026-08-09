@@ -1,116 +1,64 @@
-# Personal site
+# Tanmay Shukla
 
-A plain HTML/CSS/JS site — no build step, no framework. Content lives in
-small data files that you edit directly and push to GitHub.
+B.S. Physics Undergraduate — Indian Institute of Technology, Kanpur
+Minor: Space, Planetary & Astronomical Sciences and Engineering (SPASE)
 
-**Profile photo:** every page's header expects a photo at the repo root
-named `my pic.png` (see `<img src="my pic.png">` in each `.html` file).
-Drop your photo in with that exact filename before deploying, or rename
-the `src` in each page's `<header>` block if you'd rather use a different
-file/path.
+[GitHub](https://github.com/TanmayShukla05) · [LinkedIn](https://www.linkedin.com/in/tanmayshukla05/) · [Kaggle](https://www.kaggle.com/tanmayshukla05) · tanmay24@iitk.ac.in
 
-## 1. Put it on GitHub
+---
 
-1. Create a new repo on GitHub, e.g. `yourusername.github.io` (this gives you
-   a site at `https://yourusername.github.io`) — or any other repo name,
-   which gives you `https://yourusername.github.io/repo-name`.
-2. Push this folder's contents to that repo (see "Local setup" below).
-3. In the repo: **Settings → Pages → Source → Deploy from a branch**, pick
-   `main` and `/ (root)`, save. Your site will be live in a minute or two.
+## About
 
-## 2. Local setup (only needed once)
+Third-year Physics undergrad at IIT Kanpur working across astrophysics research, machine learning, and data pipelines — mostly for problems in astronomy, finance, and computer vision through the Astronomy Club, IIT Kanpur, where I also mentor projects as Secretary.
 
-You need `git` installed, and a way to preview locally (see below).
+## Research
 
-```bash
-cd site
-git init
-git add .
-git commit -m "Initial site"
-git branch -M main
-git remote add origin https://github.com/yourusername/yourusername.github.io.git
-git push -u origin main
-```
+**Modelling Milky Way-like Galaxies** — *Ongoing, advised by Prof. Mohit Bhardwaj*
+Built a data pipeline to ingest and process targeted subsets of a 1&nbsp;PB high-dimensional galaxy particle dataset (IllustrisTNG, TNG50-1), using local caching and axis-wise statistical aggregation to speed up feature engineering. Studying the circumgalactic medium (CGM) and feedback mechanisms in Milky Way-like galaxies via statistical modelling and simulation-driven analysis; manuscript in preparation.
+[Code](https://github.com/TanmayShukla05/tng_cgm_analysis)
 
-## 3. Preview changes locally before pushing
+## Experience
 
-The pages load content via `fetch()`, which browsers block on `file://`
-pages — so you can't just double-click `index.html`. Instead, run a tiny
-local server from the `site` folder:
+**Secretary** — Astronomy Club, IIT Kanpur *(Apr 2025 – Apr 2026)*
+Ran a country-wide Astronomy Case Study Challenge and a 3-day astronomy tech-fest for 10,000+ people on campus and 500+ remotely. Managed the club's pavilion at IITK's Science & Technology Council for 1,200+ freshers; led 3 mentored freshmen projects across signal processing, deep learning, and astronomy.
 
-```bash
-python3 -m http.server 8000
-```
+**Student Guide** — Institute Counseling Services, IIT Kanpur *(Jul 2025 – Present)*
+Mentoring 5 freshmen through their academic and personal adjustment to institute life; conducted the Orientation Programme for 1,200+ incoming students.
 
-then open `http://localhost:8000` in your browser. (Any static server
-works — `npx serve` is another option if you have Node installed.)
+**Market Research Intern** — Aditya Birla Money Ltd. *(Dec 2024)*
+Analyzed stock, sector, and index performance using historical and real-time market data to surface correlation patterns and sector-rotation opportunities. Used the NEST Trader terminal for technical analysis and tracked earnings/macro indicators to assess market sentiment. Received a Letter of Recommendation for outstanding performance.
 
-## 4. How to update each section
+**Secretary** — Anime Society, IIT Kanpur *(Apr 2025 – Apr 2026)*
+Organized events, discussion sessions, and quizzes for students interested in Japanese animated film and series.
 
-Nothing here needs a rebuild — just edit the file and push.
+## Selected Projects
 
-**Profile / about (`data/profile.json`)**
-Your name, tagline, links, one-line bio. Edit the fields directly.
+- **Hopfield-Based File Recovery System** *(Apr 2026)* — fault-tolerant file recovery via Modern Hopfield Networks / associative memory retrieval, handling images, PDFs, notebooks, HDF5, and arbitrary binary files. [Demo](https://file-recovery-system.onrender.com/) · [Code](https://github.com/TanmayShukla05/file-recovery-system)
+- **Project Moonslide** *(May 2026 – Ongoing)* — unsupervised CV pipeline generating YOLOv8 training data from Chandrayaan-2 lunar imagery using physics-guided features instead of manual labeling. [Code](https://github.com/TanmayShukla05/Project-Moonslide)
+- **Quant Forecast** *(May 2026)* — quantitative forecasting pipeline combining financial APIs, time-series preprocessing, and NLP-based news-sentiment analysis, evaluated via backtesting. [Code](https://github.com/TanmayShukla05/Quant-Forecast)
+- **Stranger Pulses** *(Dec 2025)* — ML pipeline classifying faint, imbalanced pulsar signals from cosmic noise (SMOTE, PCA, Fourier de-dispersion, Random Forest/KNN/Logistic Regression on HTRU2). [Code](https://github.com/TanmayShukla05/Stranger-Pulses)
+- **Mapping the Local-Volume Universe** *(Dec 2025 – Jan 2026)* — HEALPix full-sky mapping of the HECATE galaxy catalog, comparing CGM models and integrating CHIME FRB data for dispersion-measure sampling. [Code](https://github.com/TanmayShukla05/Mapping-Local-Volume-DM-with-HEALPix)
+- **Beyond Hubble** *(Dec 2025)* — two-stage ML framework on Gaia DR3 data (K-Means clustering + Random Forest for Cepheid variables) recovering cosmic distance coefficients via a RANSAC-fit Leavitt Law. [Code](https://github.com/TanmayShukla05/Beyond-Hubble)
+- **Singularity Mosaic** *(May 2025 – Aug 2025)* — VLBI pipeline (CASA) reconstructing the M87* black-hole shadow from Event Horizon Telescope data, with Bayesian MCMC parameter estimation. [Code](https://github.com/TanmayShukla05/Singularity-Mosaic)
+- **Exohub Matrix** *(May 2025 – Aug 2025)* — Python/SciPy pipeline for exoplanet transit spectral analysis, plus a CNN for facial emotion classification and a Random Forest model estimating Earth Similarity Index. [Code](https://github.com/TanmayShukla05/Exohub_Matrix)
 
-**Work experience (`data/work.json`)**
-A JSON array — one object per role. Copy an existing entry, edit the
-fields, add it to the array (newest first).
+*(Full list, with more detail, on the [Projects page](projects.html).)*
 
-**Projects (`data/projects.json`)**
-Same pattern: one object per project, with a title, short summary, and
-links (code, demo, etc).
+## Achievements
 
-**Research (`data/research.json`)**
-One object per paper/preprint. Link out to the actual PDF or arXiv page —
-don't host the paper file itself here.
+- Eligible for the Indian National Astronomy Olympiad (INAO) 2024
+- Ranked 1st in district — National Standard Examination in Astronomy (NSEA) 2022
+- Ranked 4th in district — National Standard Examination in Chemistry (NSEC) 2023
+- DST INSPIRE Scholarship (Govt. of India, for top JEE Advanced candidates in Natural Sciences)
+- Round 2 qualifier — Hack IITK'26 (Solution Track), 3-member cybersecurity team
+- 1st position — Astronomy High Prep, Takneek 2025 (IIT Kanpur inter-hostel technical competition)
 
-**Achievements (`data/achievements.json`)**
-Two plain arrays of strings — `scholastic` and `extracurricular`. Add or
-remove lines as needed; each renders as one bullet.
+*(Full list on the [Achievements page](achievements.html).)*
 
-**Datasets (`data/datasets.json` + `files/datasets/`)**
-1. Drop the actual file (csv, json, zip, ...) into `files/datasets/`.
-2. Add an entry to `data/datasets.json` describing it, pointing `path` at
-   the file you just added.
-   - GitHub blocks files over 100&nbsp;MB, and the web upload UI caps at
-     25&nbsp;MB. For anything bigger, either use
-     [Git LFS](https://git-lfs.com/) or upload the data to Zenodo / Kaggle /
-     Google Drive and just link to it from the entry instead.
+## Skills
 
-**Blog posts / reports (`content/posts/*.md` + `data/posts.json`)**
-1. Write the post as a Markdown file in `content/posts/`, e.g.
-   `content/posts/my-post.md`.
-2. Add an entry to `data/posts.json` with a `slug` (used in the URL), the
-   `title`, `date`, and the `file` path you just created.
-3. For a PDF report instead of a Markdown post, drop the PDF in
-   `files/reports/` and either link to it directly from a post, or add a
-   link to it from `data/profile.json` / a project entry.
+Python · C++ · C · R · TensorFlow · Keras · scikit-learn · OpenCV · YOLOv8 · NumPy · Pandas · Signal Processing · Statistical Analysis · Git/GitHub · LaTeX
 
-## Structure
+---
 
-```
-index.html          home page
-work.html            experience listing
-projects.html        projects listing
-research.html        research listing
-achievements.html    achievements listing
-datasets.html        datasets listing
-blog.html             writing listing
-blog-post.html        renders a single post from ?slug=
-css/style.css        all styling
-js/main.js            fetches data + renders all pages
-data/*.json           editable content (the thing you'll touch most)
-content/posts/*.md    blog/report post bodies
-files/datasets/       raw dataset files
-files/reports/        PDFs etc.
-```
-
-## Notes
-
-- Colors, fonts, spacing are all in `css/style.css` under `:root` at the
-  top if you want to tweak them.
-- The nav bar is duplicated at the top of each `.html` file — if you
-  rename a page or add a new one, update the nav block in every file.
-- `blog-post.html` uses [marked.js](https://marked.js.org/) from a CDN to
-  turn Markdown into HTML in the browser — no local Markdown processing
-  needed.
+*This README doubles as a quick-reference resume for the site at [tanmayshukla05.github.io/my-website](https://tanmayshukla05.github.io/my-website/). Site content is data-driven — edit the JSON files in `data/` to update it; see `data/*.json` for the source of truth.*
